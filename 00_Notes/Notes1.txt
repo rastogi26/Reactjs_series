@@ -1,0 +1,4 @@
+1. username = "dhruv"
+   <h1>Hello {username}</h1>    // {username} called evaluated expression. only accepts the final outcome
+
+   
