@@ -7,5 +7,6 @@
    Ans:- (problem in ui updation) imagine we have a 6-7 counter variables in a page , if we use simple js we have to manually select each element by using getElementId or querySelector,
          but using hooks in react we can change the value of counter variable at once. Eg using UseState() which changes the value of counter variables all over the page.
 
-4.
-   
+4. React Fiber :- read article [https://github.com/acdlite/react-fiber-architecture] 
+
+5.
