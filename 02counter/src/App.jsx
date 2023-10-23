@@ -9,7 +9,18 @@ function App() {
     //let counter = 15
     const increaseValue = () => {
       if(counter<20)
-     {  setCounter(counter+1)}
+     {  
+      setCounter(counter+1)
+      // setCounter(counter+1)
+      // setCounter(counter+1)
+      // setCounter(counter+1)
+      // works in batch and fiber se we are repeating same thing so it will occur at once
+      //but to work as above we use
+      // setCounter(prevCounter => prevCounter+1)
+      // setCounter(prevCounter => prevCounter+1)
+      // setCounter(prevCounter => prevCounter+1)
+      // setCounter(prevCounter => prevCounter+1)
+    }
       // console.log(counter);
     };
 
