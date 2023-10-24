@@ -9,4 +9,8 @@
 
 4. React Fiber :- read article [https://github.com/acdlite/react-fiber-architecture] 
 
-5.
+5.We use Link in replace of a tag because in a tag whole page is refresh/reload and whole dom tree again generated
+
+6. outlet in react-router-dom
+
+7.
