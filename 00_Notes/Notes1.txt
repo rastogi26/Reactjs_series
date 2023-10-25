@@ -13,4 +13,6 @@
 
 6. outlet in react-router-dom
 
-7.
+7. loader in react-router-dom
+
+8. prop drilling
