@@ -17,5 +17,10 @@
 
 8. prop drilling
 
+<<<<<<< HEAD
 
 9 
+=======
+9. 
+
+>>>>>>> 76c85a96744964acc9e57ec49e2f8a32abff6ddc
