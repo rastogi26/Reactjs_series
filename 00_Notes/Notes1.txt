@@ -15,13 +15,12 @@
 
 7. loader in react-router-dom
 
+
 8. prop drilling
 
-<<<<<<< HEAD
+9. When we create app with  create react app then in.env file we use REACT_APP_NAME =
+   and can we use by process.env.REACT_APP_NAME
 
-9 
-=======
-9. 
+   When using with vite the in .env VITE_NAME and can access with import.meta.env.VITE_NAME.
 
->>>>>>> 76c85a96744964acc9e57ec49e2f8a32abff6ddc
-10 
+10.
