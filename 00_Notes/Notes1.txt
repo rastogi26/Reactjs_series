@@ -23,4 +23,49 @@
 
    When using with vite the in .env VITE_NAME and can access with import.meta.env.VITE_NAME.
 
-10.
+10. Redux = store
+  Step 1: make a store.js 
+
+    code:-  
+   
+   import {configureStore} from '@reduxjs/toolkit'
+   const store = configureStore({
+    reducer:{
+
+    }
+    })
+
+    export default store;     
+
+  Step2:- Create Slice :- eg AuthSlice
+
+  Code:- 
+
+import {createSlice} from '@reduxjs/toolkit';
+
+//this slice is used to track the user authentication i.e user is authenticated or not
+
+const initialState = {
+    //create initial state depending upon the use case
+    status: false,
+    userData: null,
+}
+
+
+
+const authSlice = createSlice({
+    name:     ,
+    initialState,
+    reducers: {
+        // indiviual methods/functions and give two values state & action  
+    }
+})
+
+// authSlice.actions means in authSlice we have reducers and in reducers we have actions i.e the methods
+export const {/* export the actions/methods */ } = authSlice.actions;
+
+export default authSlice.reducer
+
+
+
+   
