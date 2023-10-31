@@ -37,6 +37,8 @@ export class AuthService {
     }
   } 
 
+
+
   //functionality 2 Login
   async login({ email, password }) {
     try {
