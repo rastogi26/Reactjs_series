@@ -68,4 +68,11 @@ export default authSlice.reducer
 
 
 
+11. React forwardRef hook  Example = In a login form we have a separate input field component and this same componet is using in username,password field .
+                      so in a login page we need to have access of the state this input field, 
+                      Therefor we need to give/pass  the reference inside the page . 
+                      In this type of senario we use forward reference hook.
+ 
+
+
    
