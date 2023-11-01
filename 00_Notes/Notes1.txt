@@ -74,5 +74,6 @@ export default authSlice.reducer
                       In this type of senario we use forward reference hook.
  
 
-
+12. options return array and not use directly map because if there is no value in options it will definatly crash the system,
+    so the solution is optinally loop i.e options?.map()
    

@@ -1,5 +1,7 @@
 import React, { useId } from 'react'
 
+// In this component we have make a separeate input field compnent so that code reusibility increases
+
 const Input = React.forwardRef(function Input({
       label,
       //by default
