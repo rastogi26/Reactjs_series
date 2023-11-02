@@ -5,11 +5,9 @@ import {Button,Logo,Input} from './index';
 import { Link,useNavigate } from 'react-router-dom';
 import {useForm} from 'react-hook-form'
 import authService from '../appwrite/auth'
-
-
-
 const Signup = () => {
         const navigate = useNavigate()
+
         const dispatch = useDispatch()
         const [error,setError] = useState("")
         const {register,handleSubmit} = useForm()
@@ -40,3 +38,4 @@ const Signup = () => {
 }
 
 export default Signup
+
