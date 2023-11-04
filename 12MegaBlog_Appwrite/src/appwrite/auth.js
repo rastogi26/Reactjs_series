@@ -1,6 +1,9 @@
 import conf from "../conf/conf";
 import { Client, Account, ID } from "appwrite";
 
+
+
+
 // main advantage of class is the frontend will not disturb if in the future if the backend changes , the methods will remain same only little bit changes are required acconding to the backend choose
 export class AuthService {
   // we did not use direct code instead use class because whenever the new object is created then the constructor call and make the client and account
